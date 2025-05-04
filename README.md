@@ -31,4 +31,18 @@ Este é o **frontend** do projeto *World Clock*, uma aplicação fullstack que e
 ---
 
 ## 🧩 Estrutura do Projeto
+world-clock-front/
+│
+├── src/
+│ ├── app/
+│ │ └── page.tsx # Página principal com botão e exibição dos horários
+│ ├── styles/
+│ │ └── globals.css # Estilos globais do Tailwind
+│
+├── public/ # Arquivos públicos (favicon, etc.)
+├── tailwind.config.ts # Configuração do Tailwind (modo dark ativado)
+├── next.config.js # Configuração de proxy para chamadas ao backend
+├── tsconfig.json # Configuração do TypeScript
+├── package.json # Dependências e scripts
+└── README.md # Este arquivo
 
